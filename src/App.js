@@ -2,7 +2,10 @@ import React from 'react'
 import Navbar from './Layout/Navbar'
 import Category from './Layout/Category'
 import Banner from './Layout/Banner'
-import Categories from './Layout/Categories'
+import CardsRow from './Layout/CardsRow'
+import Gigs from './Layout/Gigs'
+import UGC from './Layout/UGC'
+import UGCtwo from './Layout/UGCtwo'
 
 const App = () => {
   return (
@@ -12,7 +15,10 @@ const App = () => {
       <Category />
       <hr></hr>
       <Banner/>
-      <Categories/>
+      <CardsRow/>
+      <Gigs />
+      <UGC />
+      <UGCtwo />
     </div>
   )
 }
